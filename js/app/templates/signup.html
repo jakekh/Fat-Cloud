@@ -1,0 +1,56 @@
+<div class="container">
+	<div class="col-lg-10 col-lg-offset-1 cont-login text-center-xs">
+		<a href="#!/home"><img src="img/logo.svg" alt="Logo" width="200" height="auto"></a>
+		<br class="visible-xs">
+		<a class="help" href="#!/help">Help</a>
+
+		<div id="container-signup-error" class="hidden alert alert-danger alert-auth">
+		    <a class="js-close close">&times;</a>
+		    <div class="status-msg">
+			    <strong>Sorry. </strong><span id="signup-error"></span>
+		    </div>
+		</div>
+
+		<div id="container-signup-success" class="hidden alert alert-success alert-auth">
+		    <a class="js-close close">&times;</a>
+		    <div class="status-msg">
+			    <strong>Thank You! </strong><span id="signup-success"></span>
+		    </div>
+		</div>
+
+		<form class="form-login" id="signup" method="post" autocomplete="on">
+			<div class="row">
+				<div class="col-sm-6">
+				  	<div class="input-group input-login">
+						<span class="input-group-addon btn btn-default"><i class="fa fa-user"></i></span>
+				  		<input type="text" class="form-control" id="name" placeholder="Name" tabindex=1>
+					</div>
+					
+					<small class="signup-title pull-left text-left">This email will be your username to login to Fat Cloud.</small>
+				  	<input type="email" class="form-control input-login" id="email" placeholder="Email" tabindex=2>
+				  	<input type="email" class="form-control input-login" id="email-2" placeholder="Retype Email" tabindex=3>
+				</div>
+				<div class="col-sm-6">
+				  	<div class="input-group input-login hidden-xs">
+						<span class="input-group-addon btn btn-default"><i class="fa fa-phone"></i></span>
+				  		<input type="text" class="js-input-phone form-control" id="phone" placeholder="Number" maxlength="14" tabindex=4>
+					</div>
+
+					<small class="signup-title pull-left text-left">Must contain 8 or more characters.</small>
+				  	<input type="password" class="form-control input-login" id="password" placeholder="Password" tabindex=5>
+				  	<input type="password" class="form-control input-login" id="password-2" placeholder="Retype Password" tabindex=6>
+
+				  	<div class="input-group show-xs hidden-sm hidden-md hidden-lg">
+						<span class="input-group-addon"><i class="fa fa-phone"></i></span>
+				  		<input type="text" class="js-input-phone form-control" id="phone-alt" placeholder="Number" maxlength="14" tabindex=7>
+					</div>
+				</div>
+			</div>
+
+			<button type="submit" class="btn btn-default form-group btn-block input-login">Sign Up</button>
+		</form>
+	</div>
+</div>
+
+
+

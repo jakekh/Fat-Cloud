@@ -1,0 +1,28 @@
+<div class="container">
+	<div class="row-fluid">
+		<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 text-center cont-login">
+			<a href="#!/home"><img src="img/logo.svg" alt="Logo" width="200" height="auto"></a>
+			<div id="container-login-error" class="hidden alert alert-danger alert-error">
+			    <a class="js-close-alert close">&times;</a>
+			    <div class="status-msg">
+				    <strong>Sorry. </strong><span id="login-error"></span>
+			    </div>
+			</div>
+			<div id="container-login-reset" class="hidden alert alert-success">
+			    <a class="js-close-alert close">&times;</a>
+			    <div class="status-msg">
+				    <strong>Thank you! </strong><span id="login-reset"></span>
+			    </div>
+			</div>
+			<form class="form-login" id="login" method="post" autocomplete="on">
+				<input type="email" id="email" class="form-control input-login" placeholder="Email" autocomplete="on" autofocus="true">
+				<input type="password" id="password" class="form-control input-login" placeholder="Password">
+				<ul class="list-inline text-left forgot-password">
+					<li><button type="submit" id="button-login" class="btn btn-default login-btn input-login">Login</button></li>
+					<li><button type="submit" id="button-reset" class="btn btn-default login-btn input-login hidden">Reset Password</button></li>
+					<li>&nbsp;&nbsp;<input type="checkbox" class="form-check" id="forgot-password">&nbsp;&nbsp;Forgot Password?</li>
+				</ul>
+			</form>
+		</div>
+	</div>
+</div>

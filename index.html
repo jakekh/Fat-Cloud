@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Fat Cloud</title>
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Hind:700,600,500,400,300">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/alertify.css">
+		<link rel="stylesheet" href="css/alertify.bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<header>
+			<nav class="navbar" role="navigation">
+			    <div class="container nav-border">
+				    <div class="row-fluid">
+						<div class="navbar-header">
+					        <a class="js-menu-btn cont-logo" href="#!/home">
+								<img class="img-responsive" src="img/logo-nav.svg">
+							</a>
+					    </div>
+					    <!-- mobile nav -->
+				        <div class="visible-xs">
+					        <div class="pull-right list-inline">
+						        <a class="js-btn-menu btn-bars">
+							        <span class="js-bar-top"></span>
+							        <span class="js-bar-middle"></span>
+							        <span class="js-bar-bottom"></span>
+						        </a>
+					        </div>
+					      	<form class="cont-search">
+					        	<div class="form-group cont-search">
+					          		<div class="input-group search-bar-xs">
+					            		<input type="text" class="js-search form-control input-sm">
+					            		<span class="js-btn-search input-group-addon btn btn-default"><i class="fa fa-search"></i></span>
+					          		</div>
+					        	</div>
+					      	</form>
+				        	<ul class="js-menu menu">
+					        	<li class="js-auth-welcome"><a href="#!/login"><button class="js-menu-btn btn btn-default btn-block btn-menu">Sign In</button></a></li>
+						        <li class="js-auth-welcome"><a href="#!/signup"><button class="js-menu-btn btn btn-default btn-block btn-menu">Create Account</button></a></li>
+					        	<li class="js-auth-loggedin"><a><button class="js-btn-logout js-menu-btn btn btn-default btn-block btn-menu">Logout</button></a></li>
+						        <li class="js-auth-loggedin"><a href="#!/account"><button class="js-menu-btn btn btn-default btn-block btn-menu">My Account</button></a></li>
+				        		<li><a href="#!/cart"><button class="js-menu-btn btn btn-default btn-block btn-menu">Cart</button></a></li>
+						        <li><a data-toggle="modal" data-target=".js-modal-wishlist"><button class="js-menu-btn btn btn-default btn-block btn-menu">Wishlist</button></a></li>
+					        </ul>
+				        </div>
+					    <!-- desktop nav -->
+				    	<div class="navbar-collapse collapse nav-list">
+					        <ul class="nav navbar-nav navbar-right">
+						        <!-- account stuff -->
+					        	<li class="dropdown">
+						        	<a href="#!/login" class="js-dropdown-account-btn dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="100" data-close-others="false">
+						        		<i class="fa fa-user hidden-sm"></i>&nbsp;&nbsp;Hello! <span class="js-username">
+						        		</span>
+						        		<span class="caret"></span>
+						        	</a>
+					        		<ul class="dropdown-menu dropdown-account" role="menu">
+
+					        			<li class="js-auth-welcome text-center"><a href="#!/login"><span class="btn btn-default">Sign In</span></a></li>
+					        			<li class="js-auth-welcome text-center dropdown-header">or</li>
+					        			<li class="js-auth-welcome text-center"><a  href="#!/signup"><span class="btn btn-default">Create Account</span></a></li>
+
+					        			<li class="js-auth-loggedin text-center"><a><span class="js-btn-logout btn btn-default">Logout</span></a></li>
+					        			<hr class="js-auth-loggedin">
+					        			<li class="js-auth-loggedin text-center"><a href="#!/account"><span class="btn btn-default">My Account</span></a></li>
+
+					        		</ul>
+					        	</li>
+					            <li><a href="#!/cart"><i class="fa fa-shopping-cart hidden-sm"></i>&nbsp;&nbsp;Cart</a></li>
+					            <li><a data-toggle="modal" data-target=".js-modal-wishlist"><i class="fa fa-list hidden-sm"></i>&nbsp;&nbsp;Wishlist</a></li>
+					        </ul>
+					      	<form>
+					        	<div class="form-group cont-search">
+					          		<div class="input-group search-bar">
+					            		<input type="text" class="js-search form-control input-sm">
+					            		<span class="js-btn-search input-group-addon btn btn-default"><i class="fa fa-search"></i></span>
+					          		</div>
+					        	</div>
+					      	</form>
+					    </div>
+				    </div>
+			  	</div>
+			  	<div class="js-click-the-menu container click-the-menu">
+				  	<span class="visible-xs text-right">
+		        		Hello! <span class="js-username">Sign In</span>&nbsp;&nbsp;<i class="fa fa-reply fa-rotate-90"></i>
+		        	</span>
+	        	</div>
+			</nav>
+			<!-- Modal -->
+			<div class="js-modal-wishlist modal fade" tabindex="-1" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="myModalLabel">Wishlist</h4>
+						</div>
+						<div class="modal-body">
+							<ul class="list-group">
+								<li class="list-group-item">
+									<span class="ja-add-item badge badge-plus">
+										<i class="fa fa-cart-plus"></i>
+									</span>
+									<span class="badge">14.99</span>
+									<i class="fa fa-image fa-4x"></i> Wishlist items
+								</li>
+								<li class="list-group-item">
+									<span class="ja-add-item badge badge-plus">
+										<i class="fa fa-cart-plus"></i>
+									</span>
+									<span class="badge">14.99</span>
+									<i class="fa fa-image fa-4x"></i> Wishlist items
+								</li>
+								<li class="list-group-item">
+									<span class="ja-add-item badge badge-plus">
+										<i class="fa fa-cart-plus"></i>
+									</span>
+									<span class="badge">14.99</span>
+									<i class="fa fa-image fa-4x"></i> Wishlist items
+								</li>
+								<li class="list-group-item">
+									<span class="ja-add-item badge badge-plus">
+										<i class="fa fa-cart-plus"></i>
+									</span>
+									<span class="badge">14.99</span>
+									<i class="fa fa-image fa-4x"></i> Wishlist items
+								</li>
+							</ul>
+							<p class="pull-right">Total: $79.99</p>
+						</div>
+						<div class="modal-footer wishlist-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Buy All</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header> 
+		<div id="main" class="main-content"></div>
+		<footer>
+			<section class="container footer-border">
+				<div class="row-fluid">
+					<div class="col-sm-6 visible-xs cont-sub">
+						<div class="row">
+							<div class="col-xs-12">
+								<small>Sign up for our Newsletter</small>
+						      	<form>
+						        	<div class="form-group">
+						          		<div class="input-group footer-subscribe">
+						            		<input type="text" class="js-sub form-control" placeholder="Email">
+						            		<span class="input-group-addon btn btn-default"><i class="fa fa-newspaper-o"></i>&nbsp;&nbsp;Subscribe</span>
+						          		</div>
+						        	</div>
+						      	</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-sm-6">
+								<small>Contact Us</small>
+								<ul class="footer-ul-contact">
+									<li>378 Columbiana Drive Ste 4</li>
+									<li>Columbia, SC 29212, USA</li>
+									<li><a href="tel:+1234567890">(123) 456-7890</a></li><br>
+									<li><a href="mailto:support@fatcloud.com">support@fatcloud.com</a></li>
+								</ul>
+							</div>
+							<div class="col-sm-6">
+								<small>Customer Service</small>
+								<ul>
+									<li><a href="#!/privacy">Privacy Policy</a></li>
+									<li><a href="#!/shipping">Shipping and Warranty</a></li>
+									<li><a href="#!/terms">Terms and Conditions</a></li>
+									<li><a href="#!/wheretobuy">Where to Buy</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 hidden-xs">
+						<div class="row">
+							<div class="col-xs-12">
+								<small>Sign up for our Newsletter</small>
+						      	<form>
+						        	<div class="form-group">
+						          		<div class="input-group footer-subscribe">
+						            		<input type="text" class="js-sub form-control" placeholder="Email">
+						            		<span class="input-group-addon btn btn-default"><i class="fa fa-newspaper-o"></i>&nbsp;&nbsp;Subscribe</span>
+						          		</div>
+						        	</div>
+						      	</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer>
+
+		<div class="hidden-xs row-fluid footer-clouds">
+			<img class="text-left" src="img/footer-cloud-left.svg">
+			<img class="pull-right" src="img/footer-cloud-right.svg">
+		</div>
+		<!-- GLOBAL SCRIPTS -->
+		<script src="js/lib/path.js"></script>
+		<!-- MAIN APPLICATION FILE -->
+		<script src="js/lib/require.js" data-main="js/main.js"></script>
+	</body>
+</html>
