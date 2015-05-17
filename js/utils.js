@@ -16,3 +16,10 @@ function pageStart(tpl, userTpl){
 		$('.js-auth-loggedin').addClass("hidden");
 	}
 }
+
+$(document).delegate('.js-product', 'click', function(e){
+	var $target = $(e.currentTarget),
+		sku     = $target.attr('data-sku');
+
+	localStorage.setItem('sku', sku);
+});

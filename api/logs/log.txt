@@ -8551,3 +8551,573 @@ Callstack:
 #7 /Users/jakeHenderson/localHost/school/fatcloud/api/index.php(73): Slim\Slim->run()
 #8 {main}
 -------
+Date: 16.05.2015 05:19:42
+Error: Invalid credentials, please try again.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/authentication.php
+Line: 536
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(73): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 05:19:50
+Error: Invalid credentials, please try again.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/authentication.php
+Line: 536
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(73): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 05:19:53
+Error: Invalid credentials, please try again.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/authentication.php
+Line: 536
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(73): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 07:07:53
+Error: No product was selected.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 15
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 07:09:24
+Error: No product was selected.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 15
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 07:11:52
+Error: No product was selected.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 15
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 07:12:58
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 36
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 07:12:59
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 36
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 07:13:10
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 36
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:35:12
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 41
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:35:34
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 41
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:35:36
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 41
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:35:36
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 41
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:35:36
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 41
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:35:36
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 41
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:35:37
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 41
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:35:37
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 41
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:35:48
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 41
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:40:52
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 41
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:41:16
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 41
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:41:45
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 41
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:42:27
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 41
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:57:11
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:57:14
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:57:17
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 16.05.2015 11:57:19
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 17.05.2015 11:43:22
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 17.05.2015 11:43:25
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 17.05.2015 12:59:54
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 17.05.2015 01:05:58
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 17.05.2015 01:06:16
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 17.05.2015 01:06:48
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 17.05.2015 01:06:59
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 17.05.2015 01:07:01
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 17.05.2015 01:07:10
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 17.05.2015 01:07:28
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 17.05.2015 01:09:41
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------
+Date: 17.05.2015 01:10:26
+Error: No product was found matching request.
+File: /Users/jakeHenderson/localHost/fat-cloud/api/app/routes/store.php
+Line: 42
+Callstack: 
+#0 [internal function]: {closure}()
+#1 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Route.php(436): call_user_func_array(Object(Closure), Array)
+#2 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1278): Slim\Route->dispatch()
+#3 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/Flash.php(85): Slim\Slim->call()
+#4 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/MethodOverride.php(92): Slim\Middleware\Flash->call()
+#5 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#6 /Users/jakeHenderson/localHost/fat-cloud/api/app/lib/Slim/Slim.php(1227): Slim\Middleware\PrettyExceptions->call()
+#7 /Users/jakeHenderson/localHost/fat-cloud/api/index.php(70): Slim\Slim->run()
+#8 {main}
+-------

@@ -49,6 +49,24 @@ CREATE TABLE `users` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `products`
+--
+
+CREATE TABLE `products` (
+  `id` int(4) NOT NULL AUTO_INCREMENT,
+  `sku` varchar(64) NOT NULL,
+  `name` varchar(250) NOT NULL,
+  `description` varchar(300) NOT NULL,
+  `price` decimal(18,2) DEFAULT NULL,
+  `url` varchar(64) DEFAULT NULL,
+  `category` varchar(250) NOT NULL,
+  `dateAdded` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
 --
 -- Dumping data for table `users`
 --

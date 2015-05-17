@@ -63,10 +63,7 @@ $app->configureMode('development', function () use ($app) {
 
 // Route definitions
 require_once APP_ROUTE_PATH . '/authentication.php';
-//require_once APP_ROUTE_PATH . '/parents.php';
-//require_once APP_ROUTE_PATH . '/nannies.php';
-//require_once APP_ROUTE_PATH . '/children.php';
-// require_once APP_ROUTE_PATH . '/nanny.php';
+require_once APP_ROUTE_PATH . '/store.php';
 
 $app->response->headers->set('Access-Control-Allow-Origin', '*');
 $app->response->headers->set('Content-Type', 'application/json');

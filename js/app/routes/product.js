@@ -1,25 +1,29 @@
 define([], function() {
-	Path.map("#!/home").to(function(){
+	Path.map("#!/product").to(function(){
 	}).enter(function() {
 		require([
-			'tpl!template/home.html', 'tpl!template/username.html', 'tpl!template/product-tpl.html',
+			'tpl!template/product.html', 'tpl!template/username.html',
 			'bootstrap', 'bootstrapHover', 'utils'
-		], function(tpl, userTpl, productTpl) {
+		], function(tpl, userTpl) {
 			pageStart(tpl, userTpl);
 
+			var sku = localStorage.getItem('sku'),
+				xhr;
+
 			xhr = $.ajax({
-						url: 'api/index.php/newproducts',
-						type: 'POST'
+						url: 'api/index.php/product',
+						type: 'POST',
+						data: JSON.stringify({
+							sku: sku
+						})
 					});
 
 					xhr
 					.done(function(response){
-						var products = response.data;
+						var product = response.data[0];
 
-						$.each(products, function(index, value){
-							$('.js-featured').append($(productTpl.apply(value)));
-						})
-
+						$('#main').empty();
+						$('#main').append($(tpl.apply(product)));
 					}).fail(function(jqXHR, status, error){
 						var response = JSON.parse(jqXHR.responseText);
 					})

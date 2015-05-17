@@ -42,10 +42,10 @@ require([
 	'alertify','tpl!template/username.html',
 	'route/home',  'route/admin',   'route/signup', 
 	'route/login', 'route/confirm', 'route/reset',
-	'route/account', 'route/cart'
+	'route/account', 'route/cart', 'route/product'
 ], function(alertify, tpl){
 	Path.rescue(function(){
-		window.location = '/school/fatcloud/404.html'; // -- TODO change when done to /404.html
+		window.location = '404.html'; // -- TODO change when done to /404.html
 	});
 
 	Path.root("#!/home");
