@@ -1,0 +1,72 @@
+<section class="container">
+	<div class="row-fluid inline product-details">
+		<div class="col-sm-5 text-center">
+			<img class="img-responsive" src="img/products/{{url}}">
+		</div>
+		<div class="col-sm-7">
+			<div class="product-info">
+				<h3><small>{{category}}</small><br><br>{{name}}</h3>
+				<p>Price: {{price}}</p>
+				<br>
+				<div class="row">
+					<div class="col-xs-4">
+						<span class="btn btn-default" data-sku="{{sku}}">Add to Wishlist</span>
+					</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-xs-4">
+						<div class="input-group">
+							<select id="mg" type="text" class="form-control">
+								<option>0</option>
+								<option>6</option>
+								<option>12</option>
+								<option>24</option>
+							</select>
+							<span class="input-group-addon">mg.</span>
+						</div>
+					</div>
+					<div class="col-xs-4">
+						<div class="input-group">
+							<span class="input-group-addon"><span class="hidden-xs">Quantity:</span><span class="visible-xs">Qty:</span></span>
+							<input id="quantity" type="text" class="form-control" value="1">
+						</div>
+					</div>
+					<div class="col-xs-4">
+						<span class="btn btn-default" data-sku="{{sku}}">Add to Cart</span>
+					</div>
+				</div>
+				<br>
+				<h4>Fatcloud Breakdown:</h4>
+				<p>{{description}}</p>
+			</div>
+		</div>
+	</div>
+	<div class="row-fluid">
+		<div class="col-xs-12 featured">
+			<h3>Reccomended Brands
+			<span class="btn btn-default pull-right"><a href="#!/products">Shop All</a></span></h3>
+			<hr>
+			<div class="row-fluid featured-items">
+				<div class="col-sm-4 text-center">
+					<a class="media-object" href="#!/products" data-filter="cosmicfog">
+						<img class="img-responsive" src="img/brands/cosmic-fog.png">
+					</a>
+					<hr class="visible-xs">
+				</div>
+				<div class="col-sm-4 text-center">
+					<a class="media-object" href="#!/products" data-filter="holygrail">
+						<img class="img-responsive" src="img/brands/holy-grail.png">
+					</a>
+					<hr class="visible-xs">
+				</div>
+				<div class="col-sm-4 text-center">
+					<a class="media-object" href="#!/products" data-filter="spacejam">
+						<img class="img-responsive" src="img/brands/space-jam.png">
+					</a>
+					<hr class="visible-xs">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
