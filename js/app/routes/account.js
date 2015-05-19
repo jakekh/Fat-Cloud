@@ -10,24 +10,24 @@ define([], function() {
 			if(localStorage.getItem('active')){
 				var active  = localStorage.getItem('active'),
 					$panel  = $('.account-content .account-panel:eq(' + active + ')'),
-					$button = $('.account-menu span:eq(' + active + ')');
+					$button = $('.js-account-menu span:eq(' + active + ')');
 				
 				if(!$panel.is(':visible')){
 					$('.account-panel').hide(0, function(){
 					  	$panel.show(0);
 				  	});
 
-				  	$('.account-menu span').removeClass('active');
+				  	$('.js-account-menu span').removeClass('active');
 				  	$button.addClass('active');
 				}
 			}
 
-			$(document).delegate('.account-menu span', 'click', function(e) {
+			$(document).delegate('.js-account-menu span', 'click', function(e) {
 				var $target = $(e.target),
 					index   = $target.index()-1,
 					$panel  = $('.account-content .account-panel:eq(' + index + ')');
 
-				$('.account-menu span').removeClass('active');
+				$('.js-account-menu span').removeClass('active');
 			  	$target.addClass('active');
 
 			  	// -- set active in localstorage

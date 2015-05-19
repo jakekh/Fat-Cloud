@@ -82,6 +82,73 @@ $app->post('/newproducts', function() use ($database){
 	}
 });
 
+$app->post('/products', function() use ($database){
+
+	$httpStatus = null;
+
+	try{
+		$data = GetHTTPData();
+
+		if (empty($data->search)){
+			$products = $database->select("products", [
+				"sku",
+				"name",
+				"price",
+				"category",
+				"flavor",
+				"url",
+			]);
+
+			if ($products){
+				$appResponse = new AppResponse(null);
+
+				$appResponse->data = $products;
+				$appResponse->SetStatus(200, 'Products retrieved successfully.');
+			    
+				echo json_encode($appResponse);
+			}else{
+				$httpStatus = 401;
+				throw new Exception('No products were found matching request.');
+			}
+		}else{
+
+			$data->search = EscapeHtml($data->search);
+
+			//get recent products
+			$products = $database->select("products", [
+				"sku",
+				"name",
+				"price",
+				"category",
+				"flavor",
+				"url",
+			], [
+				"OR" => [
+					"name[~]" => $data->search,
+					"category[~]"  => $data->search,
+					"flavor[~]" => $data->search
+				]
+			]);
+
+			//check if there is a product then send success
+			if ($products){
+				$appResponse = new AppResponse(null);
+
+				$appResponse->data = $products;
+				$appResponse->SetStatus(200, 'Products retrieved successfully.');
+			    
+				echo json_encode($appResponse);
+			}else{
+				$httpStatus = 401;
+				throw new Exception('No products were found matching request.');
+			}
+		}
+
+	} catch (Exception $e){
+		ReportError($e, $httpStatus);
+	}
+});
+
 // $app->get('/logout', function (){
 // 	@session_start();
 	

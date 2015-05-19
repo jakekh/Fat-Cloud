@@ -7,6 +7,8 @@ define([], function() {
 		], function(tpl, userTpl, productTpl) {
 			pageStart(tpl, userTpl);
 
+			var xhr;
+
 			xhr = $.ajax({
 						url: 'api/index.php/newproducts',
 						type: 'POST'

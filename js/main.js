@@ -42,7 +42,8 @@ require([
 	'alertify','tpl!template/username.html',
 	'route/home',  'route/admin',   'route/signup', 
 	'route/login', 'route/confirm', 'route/reset',
-	'route/account', 'route/cart', 'route/product'
+	'route/account', 'route/cart', 'route/product',
+	'route/products'
 ], function(alertify, tpl){
 	Path.rescue(function(){
 		window.location = '404.html'; // -- TODO change when done to /404.html
@@ -73,6 +74,32 @@ require([
 		}else{
 			menuVisible = true;
 		}
+	}
+
+	function getProducts(search){
+		var search = search,
+				xhr;
+
+			xhr = $.ajax({
+						url: 'api/index.php/products',
+						type: 'POST',
+						data: JSON.stringify({
+							search: search
+						})
+					});
+
+					xhr
+					.done(function(response){
+						var products = response.data;
+
+						localStorage.setItem('products', JSON.stringify(products));
+
+					}).fail(function(jqXHR, status, error){
+						var response = JSON.parse(jqXHR.responseText);
+						localStorage.setItem('products', null);
+					})
+					.always(function(response){
+					});
 	}
 
 	$doc
@@ -139,6 +166,34 @@ require([
 		});
 
 		e.preventDefault();
+	})
+	.delegate('.js-form-search', 'submit', function(e){
+		var search = $('.js-search').val();
+
+		if(search != ''){
+			getProducts(search);
+			window.location = "#!/products";
+		}
+
+		$('.js-search').val('');
+
+	})
+	.delegate('.js-form-search-xs', 'submit', function(e){
+		var search = $('.js-search-xs').val();
+
+		if(search != ''){
+			getProducts(search);
+			window.location = "#!/products";
+		}
+
+		$('.js-search-xs').val('');
+
+	})
+	.delegate('.js-shop-all', 'click', function(e){
+
+		getProducts('');
+		window.location = "#!/products";
+
 	});
 
 	$.ajaxSetup({
